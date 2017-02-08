@@ -15,6 +15,10 @@
 		68EEA74B1E4955F700772FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EEA7491E4955F700772FFF /* LaunchScreen.storyboard */; };
 		68EEA7561E4955F700772FFF /* MyButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EEA7551E4955F700772FFF /* MyButtonTests.m */; };
 		68EEA7611E4955F700772FFF /* MyButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EEA7601E4955F700772FFF /* MyButtonUITests.m */; };
+		68EEA7701E4958B000772FFF /* LHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EEA76F1E4958B000772FFF /* LHButton.m */; };
+		68EEA7741E49591300772FFF /* icon-email.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EEA7711E49591300772FFF /* icon-email.png */; };
+		68EEA7751E49591300772FFF /* icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EEA7721E49591300772FFF /* icon-facebook.png */; };
+		68EEA7761E49591300772FFF /* icon-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EEA7731E49591300772FFF /* icon-mobile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		68EEA75C1E4955F700772FFF /* MyButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EEA7601E4955F700772FFF /* MyButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButtonUITests.m; sourceTree = "<group>"; };
 		68EEA7621E4955F700772FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EEA76E1E4958B000772FFF /* LHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHButton.h; sourceTree = "<group>"; };
+		68EEA76F1E4958B000772FFF /* LHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHButton.m; sourceTree = "<group>"; };
+		68EEA7711E49591300772FFF /* icon-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-email.png"; sourceTree = "<group>"; };
+		68EEA7721E49591300772FFF /* icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook.png"; sourceTree = "<group>"; };
+		68EEA7731E49591300772FFF /* icon-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-mobile.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,11 @@
 				68EEA73F1E4955F700772FFF /* AppDelegate.m */,
 				68EEA7411E4955F700772FFF /* ViewController.h */,
 				68EEA7421E4955F700772FFF /* ViewController.m */,
+				68EEA76E1E4958B000772FFF /* LHButton.h */,
+				68EEA76F1E4958B000772FFF /* LHButton.m */,
+				68EEA7711E49591300772FFF /* icon-email.png */,
+				68EEA7721E49591300772FFF /* icon-facebook.png */,
+				68EEA7731E49591300772FFF /* icon-mobile.png */,
 				68EEA7441E4955F700772FFF /* Main.storyboard */,
 				68EEA7471E4955F700772FFF /* Assets.xcassets */,
 				68EEA7491E4955F700772FFF /* LaunchScreen.storyboard */,
@@ -250,8 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EEA74B1E4955F700772FFF /* LaunchScreen.storyboard in Resources */,
+				68EEA7751E49591300772FFF /* icon-facebook.png in Resources */,
 				68EEA7481E4955F700772FFF /* Assets.xcassets in Resources */,
 				68EEA7461E4955F700772FFF /* Main.storyboard in Resources */,
+				68EEA7761E49591300772FFF /* icon-mobile.png in Resources */,
+				68EEA7741E49591300772FFF /* icon-email.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EEA7431E4955F700772FFF /* ViewController.m in Sources */,
+				68EEA7701E4958B000772FFF /* LHButton.m in Sources */,
 				68EEA7401E4955F700772FFF /* AppDelegate.m in Sources */,
 				68EEA73D1E4955F700772FFF /* main.m in Sources */,
 			);
